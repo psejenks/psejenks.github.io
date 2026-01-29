@@ -1,40 +1,75 @@
 <!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Peter Jenks</title>
 		<meta keywords="peter jenks berkeley linguistics syntax semantics typology morphology thai moro generative" />
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+		<style>
+			html { scroll-behavior: smooth; }
+			
+			/* Clean Contact List in Header */
+			ul.contact-list {
+				list-style: none;
+				padding: 0;
+				margin: 1em 0 0 0;
+			}
+			ul.contact-list li {
+				margin-bottom: 0.5em;
+				line-height: 1.4em;
+			}
+			
+			/* Back to Top Button */
+			#back-to-top {
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				z-index: 100;
+				display: none; /* Hidden by default */
+				background-color: rgba(100, 100, 100, 0.8);
+				color: white;
+				padding: 10px 15px;
+				border-radius: 5px;
+				border-bottom: none;
+			}
+			#back-to-top:hover {
+				background-color: rgba(80, 80, 80, 1);
+			}
+
+			/* Archive Styling */
+			details summary {
+				cursor: pointer;
+				padding: 1em 0;
+				font-weight: bold;
+				outline: none;
+			}
+			details summary:hover {
+				color: #787878;
+			}
+		</style>
 	</head>
 	<body id="top">
 
-		<!-- Header -->
-			<header id="header">
+		<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/jenks.jpg" alt="" /></a>
+					<a href="#" class="image avatar"><img src="images/jenks.jpg" alt="Portrait of Peter Jenks" /></a>
 					<h1>My name is <strong>Peter Jenks</strong>. I'm a professor in the linguistics department at UC Berkeley.</h1>
-					<br>
-					Email: <strong> jenks@berkeley.edu </strong><br>
-					 Office: <strong> 1217 Dwinelle Hall </strong><br>
-					 Address: <strong> 1203 Dwinelle Hall | UC Berkeley | Berkeley, CA 94720-2650 </strong></p>
+					
+					<ul class="contact-list">
+						<li>Email: <strong>jenks@berkeley.edu</strong></li>
+						<li>Office: <strong>1217 Dwinelle Hall</strong></li>
+						<li>Address: <strong>1203 Dwinelle Hall | UC Berkeley | Berkeley, CA 94720-2650</strong></li>
+					</ul>
 				</div>
 			</header>
 
-		<!-- Main -->
-			<div id="main">
+		<div id="main">
 
-				<!-- One -->
-					<section id="one">
+				<section id="one">
 						<ul class="actions">
-							<li><a href="images/pjenks_cv_jan2026.pdf" class="button">C.V.</a></li>
+							<li><a href="images/pjenks_cv_jan2026.pdf" class="button">C.V. <i class="icon fa-file-pdf-o"></i></a></li>
 							<li><a href="#Publications" class="button">Publications</a></li>
 							<li><a href="#Teaching" class="button">Teaching</a></li>
 							<li><a href="#Advising" class="button">Advising</a></li>
@@ -43,54 +78,22 @@
 					
 						<h2>About my work</h2>
 
-						<p>I am a syntactician with a primary focus on crosslinguistic
-variation, particulary with respect to noun phrases, and the interface of syntax with semantics and phonology. In the syntax-semantics interface, I'm particularly interested in definiteness, quantification, and relative clauses. In the syntax-phonology interface, I'm interested in how morphological and phonological rules are able to access syntactic information. I teach courses on syntax, semantics, typology, and fieldwork.</p>
+						<p>I am a syntactician with a primary focus on crosslinguistic variation, particularly with respect to noun phrases, and the interface of syntax with semantics and phonology.</p> 
 						
-						<p>My work focuses on languages of East and Southeast Asia and Subsaharan Africa. (I like working on languages with tone!) I have an enduring interest in Thai, which I grew up speaking as a second language and which was the topic of my <a href="http://ling.auf.net/lingbuzz/001343">dissertation</a>. </p>
+						<ul>
+							<li><strong>Syntax-Semantics Interface:</strong> I'm particularly interested in definiteness, quantification, and relative clauses.</li>
+							<li><strong>Syntax-Phonology Interface:</strong> I'm interested in how morphological and phonological rules are able to access syntactic information.</li>
+						</ul>
+
+						<p>I teach courses on syntax, semantics, typology, and fieldwork.</p>
+						
+						<p>My work focuses on languages of East and Southeast Asia and Subsaharan Africa. (I like working on languages with tone!) I have an enduring interest in Thai, which I grew up speaking as a second language and which was the topic of my <a href="http://ling.auf.net/lingbuzz/001343">dissertation <i class="icon fa-file-pdf-o"></i></a>. </p>
 						
 						<p>I have also worked for several years on Moro, an endangered Kordofanian language spoken in the <a href="https://nubareports.org/">Nuba Mountains</a> of Sudan. I co-developed the <a href="http://linguistics.berkeley.edu/moro/#/">Moro Story Corpus</a>; a descriptive grammar of Moro is to appear with Language Sciences Press, coauthored with Sharon Rose and our Moro colleagues.  </p>
 
 					</section>
 
-				<!-- Two -->
-<!--				<section id="two">
-											
-						<h2>Recent talks and manuscripts</h2>
-						
-						<h4> To appear/under review</h4>
-						<ul class="alt">
-							<li> <a href="images/definiteness2_distrib.pdf">Pronouns.</a>
-							 		<i>Linguistic Inquiry</i> 49.3, 501–536. </li>							
-							<li> <a href="images/sauxov_sandeetal.pdf">The syntactic diversity of SAuxOV in the Macro-Sudan Belt.</a>
-							(With Hannah Sande and Nico Baier) Manuscript of January 2017. (To appear in the proceedings of ACAL)</li>							
-
-						</ul>
-						<h4> September 2018</h4>
-						<ul class="alt">
-							<li> <a href="images/basaa-pc-words-sub.pdf">Pronouns, radical prodrop, and ellipsis in Mandarin (with Agnes Bi). Talk at Sinn und Bedeutung 23, Barcelona, Spain.</li>										
-						</ul>
-
-						
-						<h4> March 2018</h4>
-						<ul class="alt">
-							<li> <a href="images/basaa-pc-words-sub.pdf">On the composition of the Moro verb, slides from talk at PSST</i>, Princeton University.</li>										
-						</ul>
-
-						
-						</ul>
-
-
-						<ul class="actions">
-							<li><a href="images/pjenks_cv_nov2018.pdf" class="button">C.V.</a></li>
-							<li><a href="#Publications" class="button">Publications</a></li>
-							<li><a href="#Teaching" class="button">Teaching</a></li>
-							<li><a href="#Advising" class="button">Advising</a></li>
-						</ul>
-
-					</section>
-//-->
-				<!-- Three -->
-					<section id="Publications">
+				<section id="Publications">
 					
 					<h2>Publications</h2>
 					
@@ -101,12 +104,12 @@ variation, particulary with respect to noun phrases, and the interface of syntax
 						<li> Peter Jenks and Hannah Sande. <a href="abc">A unified analysis of infixation and prosodic inversion.</a> In a forthcoming Festschrift for Sharon Inkelas. </li>
 
 						
-						<li>Justin Royer, Cristina Buenrostro, and Peter Jenks. <a href="https://ling.auf.net/lingbuzz/007733">The syntax of quantification and focus in Chuj.</a> <i>Canadian Journal of Linguistics.</i></li>
+						<li>Justin Royer, Cristina Buenrostro, and Peter Jenks. <a href="https://ling.auf.net/lingbuzz/007733">The syntax of quantification and focus in Chuj <i class="icon fa-file-pdf-o"></i>.</a> <i>Canadian Journal of Linguistics.</i></li>
 						
-						<li>Peter Jenks and Himidan Hassen. <a href="https://ling.auf.net/lingbuzz/009440">Multiple probes and feature deletion in the Tira agreement complex.</a>, In the <i>Proceedings of WCCFL43.</i></li>
+						<li>Peter Jenks and Himidan Hassen. <a href="https://ling.auf.net/lingbuzz/009440">Multiple probes and feature deletion in the Tira agreement complex <i class="icon fa-file-pdf-o"></i>.</a>, In the <i>Proceedings of WCCFL43.</i></li>
 						
 
-						<li> Peter Jenks, Elyasir Julima, Angelo Nasir, and Sharon Rose. <i>A Grammar of Moro: Thetogovela dialect.</i>Berlin: Language Sciences Press. 723pp.</li>
+						<li> Peter Jenks, Elyasir Julima, Angelo Nasir, and Sharon Rose. <i>A Grammar of Moro: Thetogovela dialect.</i> Berlin: Language Sciences Press. 723pp.</li>
 
 						</ul>
 
@@ -115,19 +118,19 @@ variation, particulary with respect to noun phrases, and the interface of syntax
 
 						<ul class="alt">
 							
-							<li> Peter Jenks. 2025. <a href="https://escholarship.org/uc/item/2td561zq">Hyperraising from TP in Moro.In <i>Syntax in uncharted territories: Essays in honor of Maria Polinsky.</i> L. Clemens, V. Gribanova, and G. Scontras (eds.)</li>
+							<li> Peter Jenks. 2025. <a href="https://escholarship.org/uc/item/2td561zq">Hyperraising from TP in Moro.</a> In <i>Syntax in uncharted territories: Essays in honor of Maria Polinsky.</i> L. Clemens, V. Gribanova, and G. Scontras (eds.)</li>
 
-							<li> Peter Jenks. 2025. <a href="https://lingbuzz.net/lingbuzz/008256">The comparative syntax of nominal quantifiers.</a> In <i>The Cambridge Handbook of Comparative Syntax.</i> S. Barbiers, N. Corver, and M. Polinsky (eds.) Cambridge UP. </li>
+							<li> Peter Jenks. 2025. <a href="https://lingbuzz.net/lingbuzz/008256">The comparative syntax of nominal quantifiers <i class="icon fa-file-pdf-o"></i>.</a> In <i>The Cambridge Handbook of Comparative Syntax.</i> S. Barbiers, N. Corver, and M. Polinsky (eds.) Cambridge UP. </li>
 
 
 						</ul>
 						
-	<h4> 2024 </h4>
+					<h4> 2024 </h4>
 
 							<ul class="alt">
 							
 
-							<li> Badiba Olivier Agodio; Peter Jenks; Hannah Sande; Malte Zimmermann. 2024. <a href="https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/66280/file/proceedings_triplea_90-105.pdf">Indexed definiteness without demonstratives in Guébie</a>. In J. Lecavelier, N. Geick, M. Grubic, P. Bharadwaj, and M. Zimmermann (Eds.): <i>Proceedings of TripleA 10 : fieldwork perspectives on the semantics of African, Asian and Austronesian languages.  pp 90–105. </i>
+							<li> Badiba Olivier Agodio; Peter Jenks; Hannah Sande; Malte Zimmermann. 2024. <a href="https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/deliver/index/docId/66280/file/proceedings_triplea_90-105.pdf">Indexed definiteness without demonstratives in Guébie <i class="icon fa-file-pdf-o"></i></a>. In J. Lecavelier, N. Geick, M. Grubic, P. Bharadwaj, and M. Zimmermann (Eds.): <i>Proceedings of TripleA 10 : fieldwork perspectives on the semantics of African, Asian and Austronesian languages.  pp 90–105. </i>
 Potsdam. </li>
 
 							</ul>
@@ -136,166 +139,168 @@ Potsdam. </li>
 
 						<ul class="alt">
 
-						<li>Dawson, Virginia and Peter Jenks. 2023. <a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/4cbf2f0c-6ac1-4662-9c6e-10e071c886b6/content">Describing definites and indefinites.</a> In <i>Key topics in language description and documentation</i>, Ed. Peter Jenks and Lev Michael.</li>
+						<li>Dawson, Virginia and Peter Jenks. 2023. <a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/4cbf2f0c-6ac1-4662-9c6e-10e071c886b6/content">Describing definites and indefinites <i class="icon fa-file-pdf-o"></i>.</a> In <i>Key topics in language description and documentation</i>, Ed. Peter Jenks and Lev Michael.</li>
 
-						<li>Peter Jenks and Lev Michael (Eds.) 2023. <a href="https://nflrc.hawaii.edu/ldc/sp26/"><i>Five Key Topics in Language Documentation and Description.</i></a> Special Issue 26 of <i>Language Documentation & Conservation.</i> Hawai'i University Press. <li>
-
-						</ul>
-
-
-					<h4> 2022 </h4>
-
-						<ul class="alt">
-
-						<li>Li Julie Jiang, Peter Jenks, and Jing Jin. 2022. <a href="https://www.cambridge.org/core/books/abs/cambridge-handbook-of-chinese-linguistics/syntax-of-classifiers-in-mandarin-chinese/BD518EAED830F90E79A3C24D3E0431F2">The syntax of classifiers in Mandarin Chinese.</a> In <i>The Cambridge Handbook of Chinese Linguistics</i>, Chu-Ren Huang, Yen-Hwei Lin, I-Hsuan Chen, and Yu-Yin Hsu (eds.) 515-549. Cambridge, UK. (<a href="jiang-jenks-and-jin-june-2020.pdf">pre-print</a>)</li>
-
-						<li>Jenks, Peter and Rassidatou Konate. 2022. Indexed definiteness. <i> Glossa: a journal of general linguistics</i> 7(1). doi: <a href="https://doi.org/10.16995/glossa.5717">https://doi.org/10.16995/glossa.571</a> </li>
+						<li>Peter Jenks and Lev Michael (Eds.) 2023. <a href="https://nflrc.hawaii.edu/ldc/sp26/"><i>Five Key Topics in Language Documentation and Description.</i></a> Special Issue 26 of <i>Language Documentation & Conservation.</i> Hawai'i University Press. </li>
 
 						</ul>
 
-					<h4> 2021 </h4>
-
-						<ul class="alt">
-
-						<li> Khanin Chaiphet and Peter Jenks. 2021. <a href="https://ling.auf.net/lingbuzz/005980">Names as complex indices: On apparent Condition C violations in Thai.</a>
-						In <i>Proceedings of NELS 51.</i>   </li>
-
-						</ul>
-
-					<h4> 2020 </h4>
+					<details>
+						<summary><h4>Publication Archive (2022 – 2009) &nbsp;<span class="icon fa-angle-down"></span></h4></summary>
 						
-						<ul class="alt">
-							<li> Sande, Hannah, Peter Jenks, and Sharon Inkelas. 2020. <a href="https://link.springer.com/article/10.1007/s11049-020-09467-x">Cophonologies by ph(r)ase.</a>
-							 		<i>Natural Language and Linguistic Theory</i> 39, 1211–1261. </li>
+						<h4> 2022 </h4>
 
-							 <li>Jenks, Peter. 2020. <a href="images/jenks.FDL.pdf">Verbal and verbless copular clauses in Moro. 2020. <i>Faits du Langue</i> 51, 117-139 </li>
+							<ul class="alt">
 
-						</ul>
+							<li>Li Julie Jiang, Peter Jenks, and Jing Jin. 2022. <a href="https://www.cambridge.org/core/books/abs/cambridge-handbook-of-chinese-linguistics/syntax-of-classifiers-in-mandarin-chinese/BD518EAED830F90E79A3C24D3E0431F2">The syntax of classifiers in Mandarin Chinese.</a> In <i>The Cambridge Handbook of Chinese Linguistics</i>, Chu-Ren Huang, Yen-Hwei Lin, I-Hsuan Chen, and Yu-Yin Hsu (eds.) 515-549. Cambridge, UK. (<a href="jiang-jenks-and-jin-june-2020.pdf">pre-print <i class="icon fa-file-pdf-o"></i></a>)</li>
 
+							<li>Jenks, Peter and Rassidatou Konate. 2022. Indexed definiteness. <i> Glossa: a journal of general linguistics</i> 7(1). doi: <a href="https://doi.org/10.16995/glossa.5717">https://doi.org/10.16995/glossa.571</a> </li>
 
-					<h4> 2019 </h4>
-						
-						<ul class="alt">
+							</ul>
 
-							<li> Bi, Ruyue and Peter Jenks. 2019. <a href="https://ling.auf.net/lingbuzz/004474">Pronouns, null arguments, and ellipsis in Mandarin Chinese.</a>
-							 		<i>Proceedings of Sinn und Bedeutung 23</i>, vol. 1, pp. 127–142. Universitat Autònoma de Barcelona, Bellaterra (Cerdanyola del Vallès).
+						<h4> 2021 </h4>
 
-							 <li> Hyman, Larry M, Nicholas Rolle, Hannah Sande, Emily Clem, Peter SE Jenks, Florian Lionnet, J Merrill, N Baier. 2019. <a href="https://escholarship.org/content/qt2g0609kg/qt2g0609kg.pdf">Niger-congo linguistic features and typology.</a> In
-							 		<i>The Cambridge Handbook of African Linguistics</i>, H. Ekkehard Wolff, pp. 191-245. Cambridge University Press.
+							<ul class="alt">
 
-</li>
+							<li> Khanin Chaiphet and Peter Jenks. 2021. <a href="https://ling.auf.net/lingbuzz/005980">Names as complex indices: On apparent Condition C violations in Thai <i class="icon fa-file-pdf-o"></i>.</a>
+							In <i>Proceedings of NELS 51.</i>   </li>
 
-						</ul>
+							</ul>
 
-
-						<h4> 2018</h4>
-						
-						<ul class="alt">
-
-							<li> <a href="images/definiteness2_distrib.pdf">Articulated definiteness without articles.</a>
-							 		<i>Linguistic Inquiry</i> 49.3, 501–536. </li>
-
-							<li> <a href="https://ling.auf.net/lingbuzz/004021">Cophonologies by phase.</a>
-							(with Hannah Sande) In <i>Proceedings of NELS 48</i>,  Sherry Hucklebridge, Max Nelson (Eds.), 39-52. UMass, Amherst GSLA.</li>
-
-							<li> <a href="https://semanticsarchive.net/Archive/DRjNjViN/JenksKoontzGarbodenMakasso.pdf">On the lexical semantics of property concept nouns in Basaá.</a>
-							(with Andrew Koontz-Garboden and Emmanuel-Moselly Makasso). In <i>Proceedings of Sinn und Bedeutung 21</i>, Robert Truswell, Chris Cummins, Caroline Heycock, Brian Rabern, and Hannah Rohde (Eds.). 643-660. University of Edinburgh.</li>
-
-						</ul>
-
-
-						<h4> 2017</h4>
-						
-						<ul class="alt">
-							<li> <a href="images/Jenks&Sande_nels47.pdf">Dependent accusative case and caselessness in Moro.</a>
-							(with Hannah Sande (1st author)) <i>Proceedings of NELS 47</i>, UMass, Amherst.</li>
-
-							<li> <a href="images/JenksRose_MoroControlRaising_Final.pdf">Documenting Raising and Control in Moro.</a>
-							(with Sharon Rose). In <i>Africa's Endangered Languages: Documentary and Theoretical Approaches.</i> Jason Kandybowicz and Harold Torrence (Eds.).  207-236  Oxford University Press.</li>
-
-							<li> <a href="images/BasaaRelativeClauses.August2015.pdf">Accessibility and demonstrative operators in Basaá relative clauses.</a>
-							(with Emmanuel-Moselly Makasso and Larry Hyman). In <i>Relative Clauses in Cameroonian Languages.</i> Gratien Gualbet Antindogbe and Rebecca Grollemund (Eds.). 17-46. De Gruyter Mouton. </li>
-						</ul>
-
-						<h4> 2016</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://linguistics.berkeley.edu/moro/#/">Moro Story Corpus.</a> (with Angelo Naser, Hannah Sande, Marcus Ewert, Juwon Kim, and Maytas Monsereenusorn). UC Berkeley. (<a href="https://drive.google.com/open?id=1HfN9uIMHp-uVW3ueIz8KSDBlmARVMBwFBPE8bJr6DEs">slides describing project here</a>) </li>
-
-							<li> <a href="https://digitalcollections.anu.edu.au/bitstream/1885/105175/5/BaclawskiJenks2016clefts.pdf">Clefts and anti-superiority in Moken.</a>
-								(with Kenny Baclawski). <i>Journal of the Southeast Asian Linguistic Society</i> 9, 81-96.</li>
-						</ul>
-
-
-						<h4> 2015</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/25.103">Two kinds of definites in numeral classifier langauges.</a>  <i>Proceedings of SALT 25</i>, 103-124.</li>
-
-							<li> <a href="http://www.linguisticsociety.org/sites/default/files/02_91.2Jenks.pdf">Mobile object markers in Moro: The role of tone. </a>
-								(with Sharon Rose). <i>Language</i> 91.2, 269-307.</li>
-						</ul>
-
-						<h4> 2014</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://onlinelibrary.wiley.com/doi/10.1111/synt.12022/abstract">Generalized clausal modifiers in Thai noun phrases.</a>  <i>Syntax</i> 17.4, 299-342.</li>
-
-							<li> <a href="http://www.degruyter.com/view/j/jall.2014.35.issue-1/jall-2014-0003/jall-2014-0003.xml">In-situ and ex-situ wh-question constructions in Moro. </a>
-								(with Sharon Rose, Farrell Ackerman, George Gibbard, Laura Kertz, and Hannah Rohde). <i>Journal of African Languages and Linguistics</i> 35.1, 91-125.</li>
-
-							<li> <a href="http://www.oxfordbibliographies.com/view/document/obo-9780199772810/obo-9780199772810-0178.xml">Kra-Dai Languages. </a>
-								(with Pittayawat Pittayaporn). <i>Oxford Bibliographies, in “Linguistics.”</i> Ed. Mark Aranoff. New York: Oxford University Press.</li>
-						</ul>
-  
-   
-   						<h4> 2013</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://journals.linguisticsociety.org/proceedings/index.php/BLS/article/view/3872">Quantifier float, focus, and scope in Thai.</a>  <i>Proceedings of BLS 39.</i>, 90-107.</li>
-
-							<li> <a href="http://www.lingref.com/cpp/wccfl/31/paper3027.pdf">Head movement in Moro DPs: Evidence for a unified theory of movement. </a> <i>Proceedings of WCCFL 31</i>, ed. Robert
-E. Santana-LaBarge, 248-257. Somerville, MA: Cascadilla Proceedings Project. </li>
-
-							<li> <a href="http://www.lingref.com/cpp/wccfl/31/paper3025.pdf">Nominal modification in Chinese and Thai. </a> (with Shi-Zhe Huang) <i>Proceedings of WCCFL 31</i>, ed. Robert
-E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </li>
-
-							<li> <a href="http://www.lingref.com/cpp/acal/43/paper2964.pdf">Adjectives as nominal heads in Basaá. </a> (with Larry Hyman and Emmanuel-Moselly Makasso) <i>Selected proceedings of ACAL 43.</i> O. O. Orie and K. W. Sanders (Eds). Somerville: Cascadilla Press. </li>
-
-							<li> <a href="images/MoroNP_jenks.pdf">Noun phrases in Moro. </a>  In <i>Nuba Mountain Language Studies</i>, T. Schadeberg and R. Blench, Eds. Berlin: Rüdiger Koppe Verlag, 57-82.</li>  
-						</ul>
-
-
-   						<h4> 2012</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://ling.auf.net/lingbuzz/001681">Definite spans and blocking in classifier languages. </a>   UC Berkeley ms.</li>  
+						<h4> 2020 </h4>
 							
-							<li> <a href="images/Jenks_LSA_2012_HO.pdf">Three ways to modify classifiers in Thai. </a>   Presentation at LSA2012, Portland, OR.</li>  
-						</ul>
+							<ul class="alt">
+								<li> Sande, Hannah, Peter Jenks, and Sharon Inkelas. 2020. <a href="https://link.springer.com/article/10.1007/s11049-020-09467-x">Cophonologies by ph(r)ase.</a>
+										<i>Natural Language and Linguistic Theory</i> 39, 1211–1261. </li>
 
-   						<h4> 2011</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://link.springer.com/article/10.1007%2Fs11049-011-9120-x">High tone in Moro: Effects of prosodic categories and morphological domains. </a> (with Sharon Rose) <i>Natural Language and Linguistic Theory</i> 29, 211-250.</li>  
+								<li>Jenks, Peter. 2020. <a href="images/jenks.FDL.pdf">Verbal and verbless copular clauses in Moro <i class="icon fa-file-pdf-o"></i>.</a> 2020. <i>Faits du Langue</i> 51, 117-139 </li>
+
+							</ul>
+
+
+						<h4> 2019 </h4>
 							
-							<li> <a href="http://ling.auf.net/lingbuzz/001343">The hidden structure of Thai noun phrases. </a>  PhD Dissertation, Harvard University.</li>  
-						</ul>
+							<ul class="alt">
 
-     					<h4> 2010</h4>
-						
-						<ul class="alt">
-							<li> <a href="http://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/view/494">Evidence for the syntactic diversity of numeral classifiers. </a> LSA Annual Meeting Extended Abstracts. LSA 84, Baltimore, MD.</li>  
-						</ul>
+								<li> Bi, Ruyue and Peter Jenks. 2019. <a href="https://ling.auf.net/lingbuzz/004474">Pronouns, null arguments, and ellipsis in Mandarin Chinese <i class="icon fa-file-pdf-o"></i>.</a>
+										<i>Proceedings of Sinn und Bedeutung 23</i>, vol. 1, pp. 127–142. Universitat Autònoma de Barcelona, Bellaterra (Cerdanyola del Vallès).
 
-     					<h4> 2009</h4>
-						
-						<ul class="alt">
-							<li> <a href="images/CLS_JenksRose.pdf">Syllable weight and high tone in Moro.</a> (with Sharon Rose) In Proceedings of CLS 45, Volume I, R. Bochnak, N. Nicola, P. Klecha, J. Urban, A. Lemieux and C. Weaver (Eds.), 271-285. Chicago: CLS.</li>  
-						</ul>
+								<li> Hyman, Larry M, Nicholas Rolle, Hannah Sande, Emily Clem, Peter SE Jenks, Florian Lionnet, J Merrill, N Baier. 2019. <a href="https://escholarship.org/content/qt2g0609kg/qt2g0609kg.pdf">Niger-congo linguistic features and typology <i class="icon fa-file-pdf-o"></i>.</a> In
+										<i>The Cambridge Handbook of African Linguistics</i>, H. Ekkehard Wolff, pp. 191-245. Cambridge University Press.
 
-						<ul class="actions">
-							<li><a href="images/pjenks_cv_nov2018.pdf" class="button">C.V.</a></li>
+	</li>
+
+							</ul>
+
+
+							<h4> 2018</h4>
+							
+							<ul class="alt">
+
+								<li> <a href="images/definiteness2_distrib.pdf">Articulated definiteness without articles <i class="icon fa-file-pdf-o"></i>.</a>
+										<i>Linguistic Inquiry</i> 49.3, 501–536. </li>
+
+								<li> <a href="https://ling.auf.net/lingbuzz/004021">Cophonologies by phase <i class="icon fa-file-pdf-o"></i>.</a>
+								(with Hannah Sande) In <i>Proceedings of NELS 48</i>,  Sherry Hucklebridge, Max Nelson (Eds.), 39-52. UMass, Amherst GSLA.</li>
+
+								<li> <a href="https://semanticsarchive.net/Archive/DRjNjViN/JenksKoontzGarbodenMakasso.pdf">On the lexical semantics of property concept nouns in Basaá <i class="icon fa-file-pdf-o"></i>.</a>
+								(with Andrew Koontz-Garboden and Emmanuel-Moselly Makasso). In <i>Proceedings of Sinn und Bedeutung 21</i>, Robert Truswell, Chris Cummins, Caroline Heycock, Brian Rabern, and Hannah Rohde (Eds.). 643-660. University of Edinburgh.</li>
+
+							</ul>
+
+
+							<h4> 2017</h4>
+							
+							<ul class="alt">
+								<li> <a href="images/Jenks&Sande_nels47.pdf">Dependent accusative case and caselessness in Moro <i class="icon fa-file-pdf-o"></i>.</a>
+								(with Hannah Sande (1st author)) <i>Proceedings of NELS 47</i>, UMass, Amherst.</li>
+
+								<li> <a href="images/JenksRose_MoroControlRaising_Final.pdf">Documenting Raising and Control in Moro <i class="icon fa-file-pdf-o"></i>.</a>
+								(with Sharon Rose). In <i>Africa's Endangered Languages: Documentary and Theoretical Approaches.</i> Jason Kandybowicz and Harold Torrence (Eds.).  207-236  Oxford University Press.</li>
+
+								<li> <a href="images/BasaaRelativeClauses.August2015.pdf">Accessibility and demonstrative operators in Basaá relative clauses <i class="icon fa-file-pdf-o"></i>.</a>
+								(with Emmanuel-Moselly Makasso and Larry Hyman). In <i>Relative Clauses in Cameroonian Languages.</i> Gratien Gualbet Antindogbe and Rebecca Grollemund (Eds.). 17-46. De Gruyter Mouton. </li>
+							</ul>
+
+							<h4> 2016</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://linguistics.berkeley.edu/moro/#/">Moro Story Corpus.</a> (with Angelo Naser, Hannah Sande, Marcus Ewert, Juwon Kim, and Maytas Monsereenusorn). UC Berkeley. (<a href="https://drive.google.com/open?id=1HfN9uIMHp-uVW3ueIz8KSDBlmARVMBwFBPE8bJr6DEs">slides describing project here <i class="icon fa-file-pdf-o"></i></a>) </li>
+
+								<li> <a href="https://digitalcollections.anu.edu.au/bitstream/1885/105175/5/BaclawskiJenks2016clefts.pdf">Clefts and anti-superiority in Moken <i class="icon fa-file-pdf-o"></i>.</a>
+									(with Kenny Baclawski). <i>Journal of the Southeast Asian Linguistic Society</i> 9, 81-96.</li>
+							</ul>
+
+
+							<h4> 2015</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://journals.linguisticsociety.org/proceedings/index.php/SALT/article/view/25.103">Two kinds of definites in numeral classifier langauges.</a>  <i>Proceedings of SALT 25</i>, 103-124.</li>
+
+								<li> <a href="http://www.linguisticsociety.org/sites/default/files/02_91.2Jenks.pdf">Mobile object markers in Moro: The role of tone <i class="icon fa-file-pdf-o"></i>.</a>
+									(with Sharon Rose). <i>Language</i> 91.2, 269-307.</li>
+							</ul>
+
+							<h4> 2014</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://onlinelibrary.wiley.com/doi/10.1111/synt.12022/abstract">Generalized clausal modifiers in Thai noun phrases.</a>  <i>Syntax</i> 17.4, 299-342.</li>
+
+								<li> <a href="http://www.degruyter.com/view/j/jall.2014.35.issue-1/jall-2014-0003/jall-2014-0003.xml">In-situ and ex-situ wh-question constructions in Moro. </a>
+									(with Sharon Rose, Farrell Ackerman, George Gibbard, Laura Kertz, and Hannah Rohde). <i>Journal of African Languages and Linguistics</i> 35.1, 91-125.</li>
+
+								<li> <a href="http://www.oxfordbibliographies.com/view/document/obo-9780199772810/obo-9780199772810-0178.xml">Kra-Dai Languages. </a>
+									(with Pittayawat Pittayaporn). <i>Oxford Bibliographies, in “Linguistics.”</i> Ed. Mark Aranoff. New York: Oxford University Press.</li>
+							</ul>
+	
+	
+							<h4> 2013</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://journals.linguisticsociety.org/proceedings/index.php/BLS/article/view/3872">Quantifier float, focus, and scope in Thai.</a>  <i>Proceedings of BLS 39.</i>, 90-107.</li>
+
+								<li> <a href="http://www.lingref.com/cpp/wccfl/31/paper3027.pdf">Head movement in Moro DPs: Evidence for a unified theory of movement <i class="icon fa-file-pdf-o"></i>.</a> <i>Proceedings of WCCFL 31</i>, ed. Robert
+	E. Santana-LaBarge, 248-257. Somerville, MA: Cascadilla Proceedings Project. </li>
+
+								<li> <a href="http://www.lingref.com/cpp/wccfl/31/paper3025.pdf">Nominal modification in Chinese and Thai <i class="icon fa-file-pdf-o"></i>.</a> (with Shi-Zhe Huang) <i>Proceedings of WCCFL 31</i>, ed. Robert
+	E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </li>
+
+								<li> <a href="http://www.lingref.com/cpp/acal/43/paper2964.pdf">Adjectives as nominal heads in Basaá <i class="icon fa-file-pdf-o"></i>.</a> (with Larry Hyman and Emmanuel-Moselly Makasso) <i>Selected proceedings of ACAL 43.</i> O. O. Orie and K. W. Sanders (Eds). Somerville: Cascadilla Press. </li>
+
+								<li> <a href="images/MoroNP_jenks.pdf">Noun phrases in Moro <i class="icon fa-file-pdf-o"></i>.</a>  In <i>Nuba Mountain Language Studies</i>, T. Schadeberg and R. Blench, Eds. Berlin: Rüdiger Koppe Verlag, 57-82.</li>  
+							</ul>
+
+
+							<h4> 2012</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://ling.auf.net/lingbuzz/001681">Definite spans and blocking in classifier languages <i class="icon fa-file-pdf-o"></i>.</a>   UC Berkeley ms.</li>  
+								
+								<li> <a href="images/Jenks_LSA_2012_HO.pdf">Three ways to modify classifiers in Thai <i class="icon fa-file-pdf-o"></i>.</a>   Presentation at LSA2012, Portland, OR.</li>  
+							</ul>
+
+							<h4> 2011</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://link.springer.com/article/10.1007%2Fs11049-011-9120-x">High tone in Moro: Effects of prosodic categories and morphological domains. </a> (with Sharon Rose) <i>Natural Language and Linguistic Theory</i> 29, 211-250.</li>  
+								
+								<li> <a href="http://ling.auf.net/lingbuzz/001343">The hidden structure of Thai noun phrases <i class="icon fa-file-pdf-o"></i>.</a>  PhD Dissertation, Harvard University.</li>  
+							</ul>
+
+							<h4> 2010</h4>
+							
+							<ul class="alt">
+								<li> <a href="http://journals.linguisticsociety.org/proceedings/index.php/ExtendedAbs/article/view/494">Evidence for the syntactic diversity of numeral classifiers. </a> LSA Annual Meeting Extended Abstracts. LSA 84, Baltimore, MD.</li>  
+							</ul>
+
+							<h4> 2009</h4>
+							
+							<ul class="alt">
+								<li> <a href="images/CLS_JenksRose.pdf">Syllable weight and high tone in Moro <i class="icon fa-file-pdf-o"></i>.</a> (with Sharon Rose) In Proceedings of CLS 45, Volume I, R. Bochnak, N. Nicola, P. Klecha, J. Urban, A. Lemieux and C. Weaver (Eds.), 271-285. Chicago: CLS.</li>  
+							</ul>
+
+					</details> <ul class="actions">
+							<li><a href="images/pjenks_cv_nov2018.pdf" class="button">C.V. <i class="icon fa-file-pdf-o"></i></a></li>
 							<li><a href="#Publications" class="button">Publications</a></li>
 							<li><a href="#Teaching" class="button">Teaching</a></li>
 							<li><a href="#Advising" class="button">Advising</a></li>
@@ -303,17 +308,16 @@ E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </l
 
 					</section>
 
-				<!-- Four -->
-					<section id="Teaching">
+				<section id="Teaching">
 						
 						<h2>Teaching</h2>
 						
      					<h4> 2023-2024</h4>
 
 						<ul>
-							<li> Fall 2023 - Ling 200: First year proseminar for linguistics graduate students <a href="images/200-syllabus-fall23.pdf">(syllabus)</a> </li>
-							<li> Fall 2023 - Ling 220A: Advanced Syntax I (Fall 2023) <a href="images/220A-syllabus-fall23.pdf">(syllabus)</a></li>
-							<li> Spring 2024 - Ling 120: Syntax <a href="images/120-syll-spring24.pdf">(syllabus)</a>
+							<li> Fall 2023 - Ling 200: First year proseminar for linguistics graduate students <a href="images/200-syllabus-fall23.pdf">(syllabus <i class="icon fa-file-pdf-o"></i>)</a> </li>
+							<li> Fall 2023 - Ling 220A: Advanced Syntax I (Fall 2023) <a href="images/220A-syllabus-fall23.pdf">(syllabus <i class="icon fa-file-pdf-o"></i>)</a></li>
+							<li> Spring 2024 - Ling 120: Syntax <a href="images/120-syll-spring24.pdf">(syllabus <i class="icon fa-file-pdf-o"></i>)</a>
 							<br><br>
 							In Spring 2023 I was very honored to receive the UC Berkeley Distinguished Teacher award. See the video <a href="https://www.youtube.com/watch?v=9J4_h9c7rak">here.</a></li>
 						</ul>
@@ -325,8 +329,8 @@ E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </l
 						<ul>
 							<li> Fall 2022 - 100: Introduction to Linguistic Science</li>
 							<li> Fall 2022 - 201: Third year graduate research proseminar </li>
-							<li> Spring 2023 - 140: Field methods <a href="images/140-syllabus2-spring23.pdf">(syllabus)</a></li>
-							<li> 215: Advanced Morphology (Spring 2022) (with Hannah Sande!) <a href="images/215-syllabus-sp23.pdf">(syllabus)</a></li>
+							<li> Spring 2023 - 140: Field methods <a href="images/140-syllabus2-spring23.pdf">(syllabus <i class="icon fa-file-pdf-o"></i>)</a></li>
+							<li> 215: Advanced Morphology (Spring 2022) (with Hannah Sande!) <a href="images/215-syllabus-sp23.pdf">(syllabus <i class="icon fa-file-pdf-o"></i>)</a></li>
 							
 						</ul>
 
@@ -335,14 +339,13 @@ E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </l
 						
 						<ul>
 							<li> Fall 2021 - Ling 100: Introduction to Linguistic Science</li>
-							<li> Spring 2022 - 220B: Advanced Syntax II: The A/A'-Distinction <a href="images/220b-sp22-syllabus.pdf">(syllabus)</a> </li>
+							<li> Spring 2022 - 220B: Advanced Syntax II: The A/A'-Distinction <a href="images/220b-sp22-syllabus.pdf">(syllabus <i class="icon fa-file-pdf-o"></i>)</a> </li>
 						</ul>
 
 
 					</section>
 					
-				<!-- Five -->
-					<section id="Advising">
+				<section id="Advising">
 
 						<h2>Advising</h2>
 						 
@@ -358,12 +361,12 @@ E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </l
 		
 							<li> <a href="https://sites.google.com/view/tyler-lemon">Tyler Lemon</a></li>
 						</ul>
-							<h4>Dissertation committees ((co-)chaired)</h4>
+							<h4>Dissertation committees (co-chaired)</h4>
 							
 						<ul>
 							
 								<li> 2024 <a href="https://sites.google.com/berkeley.edu/wesleysantos/home/">Wesley dos Santos</a> (co-chaired with Lev Michael)</li>
-									<li>2023 <a href="https://sites.google.com/berkeley.edu/tessascott/home">Tessa Scott</a>, <a href="https://escholarship.org/uc/item/9vw0v4x5"><i>Pronouns and agreement in San Juan Atitán Mam</i>
+									<li>2023 <a href="https://sites.google.com/berkeley.edu/tessascott/home">Tessa Scott</a>, <a href="https://escholarship.org/uc/item/9vw0v4x5"><i>Pronouns and agreement in San Juan Atitán Mam <i class="icon fa-file-pdf-o"></i></i>
 </a> (co-chaired with Amy Rose Deal)</li>
 
 						 		<li>2019 <a href="http://linguistics.berkeley.edu/~kbaclawski/">Kenny Baclawski, Jr.</a>, <a href="https://escholarship.org/uc/item/4hx630c2"><i>Discourse connectedness</i></a>
@@ -374,27 +377,27 @@ E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </l
 						<h4>Dissertation committees (as committee member)</h4>
 							
 
-							<ul>		<li>2023 <a href="https://sites.google.com/view/madeline-bossi">Madeline Bossi</a>, <a href="https://escholarship.org/uc/item/5gt4077b"><i>Epistemic modality across syntactic catergories in Kipsigis</i>
+							<ul>		<li>2023 <a href="https://sites.google.com/view/madeline-bossi">Madeline Bossi</a>, <a href="https://escholarship.org/uc/item/5gt4077b"><i>Epistemic modality across syntactic catergories in Kipsigis <i class="icon fa-file-pdf-o"></i></i>
 </a></li>
-									<li>2023 <a href="http://www.emilydrummond.com">Emily Drummond</a>, <a href="https://escholarship.org/uc/item/1xv905sb"><i>Clause structure and ergativity in Nukuoro</i>
-</a></li>
-
-									<li>2020 <a href="https://sites.google.com/site/virginiaedawson/">Virginia Dawson</a>, <a href="https://escholarship.org/uc/item/611308rh"><i>Existential quantification in Tiwa: disjunction and indefinites</i>
+									<li>2023 <a href="http://www.emilydrummond.com">Emily Drummond</a>, <a href="https://escholarship.org/uc/item/1xv905sb"><i>Clause structure and ergativity in Nukuoro <i class="icon fa-file-pdf-o"></i></i>
 </a></li>
 
-									<li>2019 <a href="https://pages.ucsd.edu/~eclem/">Emily Clem</a>, <a href="https://escholarship.org/uc/item/20g8q5kw"><i>Agreement, case, and switch-reference in Amahuaca</i>
+									<li>2020 <a href="https://sites.google.com/site/virginiaedawson/">Virginia Dawson</a>, <a href="https://escholarship.org/uc/item/611308rh"><i>Existential quantification in Tiwa: disjunction and indefinites <i class="icon fa-file-pdf-o"></i></i>
 </a></li>
 
-								<li>2018  <a href="https://nicholasrolle.com/"> Nik Rolle</a>, <a href="https://escholarship.org/uc/item/5ck8s48r"><i>Grammatical tone: Typology and theory</i></a></li>
-								<li>2017 <a href="http://hsande.georgetown.domains/"> Hannah Sande</a>, <a href="https://escholarship.org/uc/item/38g4f01q"><i>Distributing morphologically conditioned phonology: Three case studies from Guébie</i></a></li>
+									<li>2019 <a href="https://pages.ucsd.edu/~eclem/">Emily Clem</a>, <a href="https://escholarship.org/uc/item/20g8q5kw"><i>Agreement, case, and switch-reference in Amahuaca <i class="icon fa-file-pdf-o"></i></i>
+</a></li>
+
+								<li>2018  <a href="https://nicholasrolle.com/"> Nik Rolle</a>, <a href="https://escholarship.org/uc/item/5ck8s48r"><i>Grammatical tone: Typology and theory <i class="icon fa-file-pdf-o"></i></i></a></li>
+								<li>2017 <a href="http://hsande.georgetown.domains/"> Hannah Sande</a>, <a href="https://escholarship.org/uc/item/38g4f01q"><i>Distributing morphologically conditioned phonology: Three case studies from Guébie <i class="icon fa-file-pdf-o"></i></i></a></li>
 								<li> 2016. Christine Sheil, <a href="http://lx.berkeley.edu/publications/scottish-gaelic-clefts-syntax-semantics-and-pragmatics"><i>Scottish Gaelic Clefts: Syntax, Semantics and Pragmatics</i></a> </li>
-								<li>2015. I-Hsuan Chen, <a href="https://escholarship.org/uc/item/0g29672q"><i>The Diachronic Development and Synchronic Distribution of Mimimizers in Mandarin</i></a></li>
+								<li>2015. I-Hsuan Chen, <a href="https://escholarship.org/uc/item/0g29672q"><i>The Diachronic Development and Synchronic Distribution of Mimimizers in Mandarin <i class="icon fa-file-pdf-o"></i></i></a></li>
 								<li> 2015. Jessica Cleary-Kemp, <a href="http://lx.berkeley.edu/publications/serial-verb-constructions-revisited-case-study-koro"><i>Serial Verb Constructions Revisited: A Case Study from Koro</i></a> </li>
 								<li> 2015. Stephanie Farmer, <a href="http://lx.berkeley.edu/publications/establishing-reference-m%C3%A1%C3%ADh%C4%A9%CC%B5%CC%80k%C3%AC"><i>Establishing reference in Máíhĩkì</i></a>	</li>	
 							</ul>
 						
 						<ul class="actions">
-							<li><a href="images/pjenks_cv_nov2018.pdf" class="button">C.V.</a></li>
+							<li><a href="images/pjenks_cv_nov2018.pdf" class="button">C.V. <i class="icon fa-file-pdf-o"></i></a></li>
 							<li><a href="#Publications" class="button">Publications</a></li>
 							<li><a href="#Teaching" class="button">Teaching</a></li>
 							<li><a href="#Advising" class="button">Advising</a></li>
@@ -402,331 +405,9 @@ E. Santana-LaBarge, 227-237. Somerville, MA: Cascadilla Proceedings Project. </l
 
 					</section>
 
-			 		
-				<!-- Four -->
-
-<!-- 
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="6u 12u$(xsmall)">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(xsmall)">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button special">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button special small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="6u 12u$(small)">
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(small)">
-									<ul class="actions vertical small">
-										<li><a href="#" class="button special small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="6u 12u$(small)">
-									<ul class="actions vertical">
-										<li><a href="#" class="button special fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(small)">
-									<ul class="actions vertical small">
-										<li><a href="#" class="button special small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button special">Special</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button big">Big</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button special fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button special fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button special icon fa-download">Icon</a></li>
-								<li><a href="#" class="button icon fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button special disabled">Special</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row uniform 50%">
-									<div class="6u 12u$(xsmall)">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="6u$ 12u$(xsmall)">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="12u$">
-										<div class="select-wrapper">
-											<select name="demo-category" id="demo-category">
-												<option value="">- Category -</option>
-												<option value="1">Manufacturing</option>
-												<option value="1">Shipping</option>
-												<option value="1">Administration</option>
-												<option value="1">Human Resources</option>
-											</select>
-										</div>
-									</div>
-									<div class="4u 12u$(small)">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="4u 12u$(small)">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="4u$ 12u(small)">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="6u 12u$(small)">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="6u$ 12u$(small)">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="12u$">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="12u$">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row 50% uniform">
-									<div class="12u$"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="4u$"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-
 			</div>
- -->
-		<!~~ Footer ~~>
-			<footer id="footer">
+
+		<footer id="footer">
 				<div class="inner">
 					<ul class="icons">
 						<li><a href="https://twitter.com/psejenks" class="icon fa-twitter"><span class="label">@psejenks</span></a></li>
@@ -738,23 +419,24 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</div>
 			</footer>
 
+			<a href="#top" id="back-to-top" class="button small">Top <i class="icon fa-arrow-up"></i></a>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
 			<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  			ga('create', 'UA-26791902-1', 'auto');
-  			ga('send', 'pageview');
-
+				// Show/Hide Back to Top Button on Scroll
+				var btn = $('#back-to-top');
+				$(window).scroll(function() {
+					if ($(window).scrollTop() > 300) {
+						btn.fadeIn();
+					} else {
+						btn.fadeOut();
+					}
+				});
 			</script>
 
 	</body>
