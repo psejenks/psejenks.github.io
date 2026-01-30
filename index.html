@@ -39,16 +39,20 @@
 			}
 
 			/* Archive Styling */
-			details summary {
-				cursor: pointer;
-				padding: 1em 0;
-				font-weight: bold;
-				outline: none;
-			}
-			details summary:hover {
-				color: #787878;
-			}
-		</style>
+.summary-heading {
+    display: inline;      /* Keeps it on the same line as the arrow */
+    font-size: 1.15em;    /* Matches typical h4 size */
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Optional: remove the default padding you added to summary if it's too tall now */
+details summary {
+    cursor: pointer;
+    padding: 0.5em 0;    /* Reduced padding */
+    font-weight: bold;
+    outline: none;
+}		</style>
 	</head>
 	<body id="top">
 
@@ -172,8 +176,7 @@ Potsdam. </li>
 
 							</ul>
 
-					<details> 	<summary><h4>Older publications </h4></summary>
-
+<details> <summary><span class="summary-heading">Older publications</span></summary>
 
 						<h4> 2019 </h4>
 							
@@ -460,6 +463,7 @@ Potsdam. </li>
 
 	</body>
 </html>
+
 
 
 
